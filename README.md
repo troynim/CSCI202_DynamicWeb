@@ -7,3 +7,8 @@ Learning outcomes include:
 • Design and develop dynamic websites using HTML, CSS, and JavaScript 
 • Discuss Internet history related ideas and technologies.  
 • Research societal issues associated with today’s Internet, including socioeconomic impacts, privacy and surveillance, security, intellectual property, information resources and infrastructures. 
+
+
+PDF Syllabus: https://github.com/DustinOHara/CSCI202_DynamicWeb/blob/master/Syllabus_CSCI202_Fall2019.pdf
+
+Samples: https://dustinohara.github.io/CSCI202_DynamicWeb/CSCI202_Examples/
