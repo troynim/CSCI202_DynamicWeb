@@ -1,0 +1,22 @@
+body {
+    
+  background-color: white; 
+    
+  background-image: url("");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+     
+}
+
+#txt {
+
+    font-size: 300px;
+    text-align: center;
+    color: black;
+      } 
+
