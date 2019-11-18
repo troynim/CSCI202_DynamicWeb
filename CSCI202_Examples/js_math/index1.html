@@ -24,16 +24,23 @@ span { color: red;
 
 
 <script>
-    
+  
+  // the value of the variables are arrays
+ 
   var apples = ["Fuji", "Red Delicious", "Honeycrisp", "Granny Smith"];
   var bananas = ["Cavendish", "Lady's Finger", "Red Bananas"];
+  
+  // the concat() method joins two or more arrays
   var fruits = apples.concat(bananas);
-
+  
+  // the output is the total number of elements within the array, i.e. bananas.length = 3
+    
   document.getElementById("BananaCount").innerHTML = bananas.length;
   document.getElementById("AppleCount").innerHTML = apples.length;
   document.getElementById("FruitCount").innerHTML = fruits.length;
 
   // the shift() method removes the first array element, ie the "Fuji" apple. 
+  
   apples.shift();
   fruits.shift();
   
