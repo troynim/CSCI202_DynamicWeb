@@ -6,5 +6,4 @@ https://dustinohara.github.io/CSCI202_DynamicWeb/CSCI202_Examples/js_math/index.
 
 And the second example involves arrays. 
 
-file:///Users/dustinohara/Desktop/CSCI202/CSCI202_Examples/JS_Math/index1.html
-
+https://dustinohara.github.io/CSCI202_DynamicWeb/CSCI202_Examples/js_math/index1.html
