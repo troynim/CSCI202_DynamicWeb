@@ -1,0 +1,32 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {font-size: 90px;
+text-align: center;
+}    
+</style>    
+</head>    
+    
+    
+<body>
+
+<p>Mary has <span id = "FruitCount" ></span> pieces of fruit, <span id = "AppleCount" ></span> apples, and <span id = "BananaCount" ></span> banana.</p>
+
+
+<script>
+    
+  var apples = ["Fuji", "Red Delicious", "Honeycrisp", "Granny Smith"];
+  var bananas = ["Cavendish", "Lady's Finger", "Red Bananas"];
+  var fruits = apples.length + bananas.length;
+
+  document.getElementById("BananaCount").innerHTML = bananas.length;
+  document.getElementById("AppleCount").innerHTML = apples.length;
+  document.getElementById("FruitCount").innerHTML = fruits;
+
+</script>
+
+</body>
+</html>
