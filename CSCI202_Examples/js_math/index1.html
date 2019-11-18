@@ -4,9 +4,13 @@
 <html>
 <head>
 <style>
-p {font-size: 90px;
+p {font-size: 80px;
 text-align: center;
-}    
+}   
+    
+span { color: red;
+}
+    
 </style>    
 </head>    
     
@@ -16,15 +20,25 @@ text-align: center;
 <p>Mary has <span id = "FruitCount" ></span> pieces of fruit, <span id = "AppleCount" ></span> apples, and <span id = "BananaCount" ></span> banana.</p>
 
 
+<p> Mary eats <span>1</span> apple. <br> She now has <span id = "SecondAppleCount" ></span> apples and a total of <span id = "SecondFruitCount" ></span>  fruits.</p>
+
+
 <script>
     
   var apples = ["Fuji", "Red Delicious", "Honeycrisp", "Granny Smith"];
   var bananas = ["Cavendish", "Lady's Finger", "Red Bananas"];
-  var fruits = apples.length + bananas.length;
+  var fruits = apples.concat(bananas);
 
   document.getElementById("BananaCount").innerHTML = bananas.length;
   document.getElementById("AppleCount").innerHTML = apples.length;
-  document.getElementById("FruitCount").innerHTML = fruits;
+  document.getElementById("FruitCount").innerHTML = fruits.length;
+
+  // the shift() method removes the first array element. 
+  apples.shift();
+  fruits.shift();
+  
+  document.getElementById("SecondAppleCount").innerHTML = apples.length;
+  document.getElementById("SecondFruitCount").innerHTML = fruits.length;
 
 </script>
 
