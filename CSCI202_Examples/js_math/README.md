@@ -1,4 +1,4 @@
-These documents provide a example simple addition. 
+Example of Simple Math using JS 
 
 The first involves variables with defined values.
 
