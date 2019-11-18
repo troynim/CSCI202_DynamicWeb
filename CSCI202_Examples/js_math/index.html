@@ -4,25 +4,33 @@
 <html>
 <head>
 <style>
-p {font-size: 90px;
+p {font-size: 60px;
 text-align: center;
-}    
+} 
+span { color: red;
+}
 </style>    
 </head>    
     
     
 <body>
 
-<p>Mary has <span id = "FruitCount" ></span> pieces of fruit, <span id = "AppleCount" ></span> apples, and <span id = "BananaCount" ></span> banana.</p>
+<p>Mary has <span id = "FruitCount" ></span> pieces of fruit: <span id = "AppleCount" ></span> apples, and <span id = "BananaCount" ></span> banana. </p> 
+
+<p> Mary eats <span>1</span> apple. <br> She now has <span id = "SecondAppleCount" ></span> apples and a total of <span id = "SecondFruitCount" ></span>  fruits.</p>
 
 
 <script>
 var apple = 3;
 var banana = 4;
 var fruit = apple + banana;
+
 document.getElementById("FruitCount").innerHTML = fruit;
 document.getElementById("AppleCount").innerHTML = apple;
 document.getElementById("BananaCount").innerHTML = banana;
+
+document.getElementById("SecondAppleCount").innerHTML = apple - 1;
+document.getElementById("SecondFruitCount").innerHTML = fruit - 1;
 </script>
 
 </body>
