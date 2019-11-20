@@ -1,4 +1,4 @@
-Example of Simple Math using JS 
+Example of simple math & array using JS 
 
 The first involves variables with defined values.
 
